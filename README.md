@@ -93,3 +93,24 @@ Curso de Asincronismo con JavaScript
     Transpilar es generar a partir de código en un lenguaje código en otro lenguaje. Es decir, un
     programa produce otro programa en otro lenguaje cuyo comportamiento es el mismo que el
     original.
+
+  ## Event Loop
+  El bucle de eventos es un bucle que se ejecuta en una aplicación cuando se detecta un evento.
+
+  Herramienta donde poder probar event loop "http://latentflip.com/loupe"
+  
+  ![](https://media.giphy.com/media/JFsW5Wtec5dA1rthkq/giphy.gif)
+
+    Event Loop: el buble de eventos de un patró de diseño que espera y distribuye eventos o mensajes de un programa.
+
+    Memory Heap: Los objetos son asignados a un montículo (espacio grante en la memoria no organizado).
+
+    Call Stack (pila): Aplila de forma organizada las instrucciones de nuestro programa .
+
+    Task Queue: Cola de tareas, que se maneja la concurrencia, se agregan las tareas que ua estan listas para pasar al Stack (Pila). El stack debe de estar vacio.
+
+    MicroTask Queue: Las promesas tienen otra forma de ejecutarse y de una prioridad superior.
+
+    Wev APIs: JavaScript del lado del cliente: setTimeout XMLHttpRequest, File Reader, Dom. Node: fs, https.
+
+    Event Loop: Tarea asignada para mover el Task Queue al Stack, solo si el Stack está vacío.

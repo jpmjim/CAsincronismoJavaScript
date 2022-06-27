@@ -114,3 +114,16 @@ Curso de Asincronismo con JavaScript
     Wev APIs: JavaScript del lado del cliente: setTimeout XMLHttpRequest, File Reader, Dom. Node: fs, https.
 
     Event Loop: Tarea asignada para mover el Task Queue al Stack, solo si el Stack está vacío.
+
+  ## Configuración
+    - El editor que usaremos sera Visual Studio Code.
+    - La documentación de JavaScript es la que se encuentra en la siguiente dirección: https://developer.mozilla.org/es/docs/Web/JavaScript
+    - La fake API de platzi: https://developer.mozilla.org/es/docs/Web/JavaScript
+    - Code Runner que se integra con el editor: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+
+  ### Comandos en la terminal
+      - pwd donde me encuentro en la carpeta actual.
+      - mkdir crear una carpeta nos movemos a la carpeta con cd.
+      - inicializamos nuestro repo local con git init.
+      - inicilizar con npm init.
+      - creamos una estructura de carpetas.

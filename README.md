@@ -130,3 +130,18 @@ Curso de Asincronismo con JavaScript
   
   ## Qué son los Callbacks
     Una función de callback es una función que se pasa a otra función como un argumento, que luego se invoca dentro de la función externa para completar algún tipo de rutina o acción.
+  
+  ## XMLHTTPRequest "el llamodo a una API de Platzi"
+    - Instalación de recurso npm i xmlhttprequest.
+    - Link de la API "https://fakeapi.platzi.com/"
+    
+    Para obtener el JSON se utilizará un API llamado XMLHttpRequest (a menudo llamado XHR). Éste en un objeto JavaScript muy útil que permite realizar solicitudes de red para recuperar recursos desde un servidor vía JavaScript (por ejemplo: imágenes, texto, JSON, incluso código HTML), con lo que es posible actualizar pequeñas secciones de contenido sin tener que volver a cargar la página entera. Con ello se obtienen páginas web más interactivas, pero está fuera del alcance de este artículo entrar en detalle.
+  ### Códigos de estado de respuesta HTTP
+    Los códigos de estado de respuesta HTTP indican si se ha completado satisfactoriamente una solicitud HTTP específica. Las respuestas se agrupan en cinco clases:
+      
+      Respuestas informativas (100–199),
+      Respuestas satisfactorias (200–299),
+      Redirecciones (300–399),
+      Errores de los clientes (400–499),
+      y errores de los servidores (500–599).
+ 

@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jpmjim/CAsincronismoJavaScript/issues"
   },
-  "homepage": "https://github.com/jpmjim/CAsincronismoJavaScript#readme"
+  "homepage": "https://github.com/jpmjim/CAsincronismoJavaScript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }

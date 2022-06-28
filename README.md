@@ -153,3 +153,13 @@ Curso de Asincronismo con JavaScript
     - Callback hell es una de las más grandes desventajas de JavaScript.
     - Ejecutamos el codigo desde la consola "node src/callback/challenge.js"
     - Creamos nuestro script en nuestro package.json "npm run callback"
+
+  ## Qué son las promesas
+    - Promesas son una forma de trabajar con callbacks.El objeto Promise representa la eventual finalización (o falla) de una operación asincrónica y su valor resultante.
+    Un Promise está en uno de estos estados:
+
+     - pending (pendiente): estado inicial, ni cumplido ni rechazado.
+    - fulfilled (cumplida): lo que significa que la operación se completó con éxito.
+    - rejected (rechazada): lo que significa que la operación falló.
+
+    Documentación "https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise".

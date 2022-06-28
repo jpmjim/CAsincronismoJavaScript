@@ -163,3 +163,9 @@ Curso de Asincronismo con JavaScript
     - rejected (rechazada): lo que significa que la operación falló.
 
     Documentación "https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise".
+
+  ## Fetch
+    - Instalación de recurso npm i node-fetch.
+    - Link de la API "https://fakeapi.platzi.com/"
+    - Petición a nuestra API atraves de una promesa.
+    - Fetch: Nos permite realizar peticiones HTTP asíncronas utilizando promesas y de forma que el código sea un poco más sencillo y menos verboso. Básicamente llamamos a Fetch y le pasamos como parámetro la URL de la petición. 

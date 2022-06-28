@@ -148,3 +148,8 @@ Curso de Asincronismo con JavaScript
   ## Fetch data "callback hell"
     - Petición de datos con fetch hacia la API.Usando callback sin caer en un callback hell.
     - Analizar errores y revisar la documentación del paquete que instalamos.
+  
+  ## Callback hell
+    - Callback hell es una de las más grandes desventajas de JavaScript.
+    - Ejecutamos el codigo desde la consola "node src/callback/challenge.js"
+    - Creamos nuestro script en nuestro package.json "npm run callback"

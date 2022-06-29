@@ -200,3 +200,9 @@ Curso de Asincronismo con JavaScript
 
     - Origin 
       Indica de dónde se origina una búsqueda
+  
+  ## Funciones asíncronas "Async / Await"
+    Permite crear funciones asíncronas sin bloqueo de una manera similar a una función sincrónica ordinaria, documentación "https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function".
+    
+    - Async: la usamos siempre al inicio de la función, y lo que hace es definir que esa función será asincrona. Esta devuelve un elemento Promise. Cuando la función async devuelve un valor, Promise se resolverá con el valor devuelto. Si la función async genera una excepción o algún valor, Promise se rechazará con el valor generado.
+    - Await: la usamos siempre dentro de una función async, y lo que hace es esperar a que la promesa se resuelva. Si la promesa se resuelve, se devuelve el valor que se ha resuelto. Si la promesa se rechaza, se devuelve una excepción.

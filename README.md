@@ -206,3 +206,11 @@ Curso de Asincronismo con JavaScript
     
     - Async: la usamos siempre al inicio de la función, y lo que hace es definir que esa función será asincrona. Esta devuelve un elemento Promise. Cuando la función async devuelve un valor, Promise se resolverá con el valor devuelto. Si la función async genera una excepción o algún valor, Promise se rechazará con el valor generado.
     - Await: la usamos siempre dentro de una función async, y lo que hace es esperar a que la promesa se resuelva. Si la promesa se resuelve, se devuelve el valor que se ha resuelto. Si la promesa se rechaza, se devuelve una excepción.
+
+  ## Try and catch "Async y Await para hacer peticiones a la API"
+    Nos permite crear un bloque a intentar (try), y otro por si falla o se produce una excepción (catch)
+    La sentencia try consiste en un bloque try que contiene una o más sentencias. Las llaves {} se deben utilizar siempre, incluso para una bloques de una sola sentencia. Al menos un bloque catch o un bloque finally debe estar presente. Esto nos da tres formas posibles para la sentencia try:
+
+    try...catch
+    try...finally
+    try...catch...finally

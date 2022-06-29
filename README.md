@@ -214,3 +214,7 @@ Curso de Asincronismo con JavaScript
     try...catch
     try...finally
     try...catch...finally
+
+  ## Generators
+    Documentación "https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Generator".
+    El objeto Generator es retornado por una función generator y es conformado tanto el protocolo iterable como el protocolo iterador.

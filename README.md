@@ -169,3 +169,34 @@ Curso de Asincronismo con JavaScript
     - Link de la API "https://fakeapi.platzi.com/"
     - Petición a nuestra API atraves de una promesa.
     - Fetch: Nos permite realizar peticiones HTTP asíncronas utilizando promesas y de forma que el código sea un poco más sencillo y menos verboso. Básicamente llamamos a Fetch y le pasamos como parámetro la URL de la petición. 
+
+  ## Fetch POST
+    Documentación de la API productos "https://fakeapi.platzi.com/doc/products".
+    Enviar información a la API atraves de POST. Atraves de fecth con las promesas.
+    Existen métodos creados para diferentes fines y que se pueden usar (en este caso, esta API):
+    ‘Get’: Para obtener
+    ‘Post’: Enviar, crear
+    ‘Put’: Actualizar
+    ‘Delete’ Para eliminar.
+    Verificamos si se envio la data en el navedagor con la id del nuevo producto "http://api.escuelajs.co/api/v1/products/223"
+  ### CORS 
+    CORS (Cross-Origin Resource Sharing) es un sistema, que consiste en transmitir encabezados HTTP , que determina si los navegadores bloquean el código JavaScript frontend para acceder a las respuestas de las solicitudes de origen cruzado.
+    La política de seguridad del mismo origen prohíbe el acceso de orígenes cruzados a los recursos. Pero CORS brinda a los servidores web la capacidad de decir que desean optar por permitir el acceso de origen cruzado a sus recursos.
+
+    Encabezados CORS:
+    - Access-Control-Expose-Headers: 
+      Para que el navegador pueda acceder a los encabezados de la respuesta.
+      Indica qué encabezados se pueden exponer como parte de la respuesta enumerando sus nombres.
+
+    - Access-Control-Max-Age
+      Indica el tiempo (en segundos) que el navegador debe mantener la respuesta en caché.
+      Indica cuánto tiempo se pueden almacenar en caché los resultados de una solicitud de verificación previa.
+
+    - Access-Control-Request-Headers
+      Se usa cuando se emite una solicitud de verificación previa para que el servidor sepa qué encabezados HTTP se usarán cuando se realice la solicitud real.
+
+    - Access-Control-Request-Method
+      Se utiliza al emitir una solicitud de verificación previa para que el servidor sepa qué método HTTP se utilizará cuando se realice la solicitud real.
+
+    - Origin 
+      Indica de dónde se origina una búsqueda
